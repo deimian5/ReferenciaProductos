@@ -1,0 +1,11 @@
+<H3>
+    <a [title]="producto.nombre + ' detalles'">
+      {{ producto.nombre }}
+    </a>
+    <p *ngIf="producto.descripcion">
+        {{ producto.descripcion}}
+    </p>
+    <button name="btnCompartir" (click)="compartir();">
+      Compartir
+    </button>
+</H3>
